@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #696D86;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	height: 100%;
+	width: 25%;
+	margin: 0 auto;
+}
+#iphone11 {
+	height: 39em;
+	width: 20em;
+	background: url(../../images/back1.png) no-repeat;
+	-moz-background-size: 100%; 
+	-webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+#content {
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+#header {
+	width: 90%;
+	height: 10%;
+	margin: 0 auto;
+
+}
+#back_svg {
+	width: 20%;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+.back_svg {
+	vertical-align: middle;
+}
+#page_name {
+	width: 60%;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+.settings {
+	color: #DDDDDD;
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+}
+#help_svg {
+	width: 20%;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+.help_svg {
+	vertical-align: middle;
+}
+#space1 {
+	height: 7%;
+	width: 100%;
+}
+form {
+	width: 80%;
+	height: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+input[type="text"] {
+	height: 30px;
+	width:80%;
+	 border: 0px;
+	 border-bottom: 1px solid #696D86;;
+	 background-color: transparent;	
+	 color: #ddd;
+	 padding-top: 10px;
+	 font-family: 'Roboto Condensed', sans-serif;
+	 font-size: 15px;
+}
+input[type="password"] {
+	height: 30px;
+	width:80%;
+	 border: 0px;
+	 border-bottom: 1px solid #696D86;;
+	 background-color: transparent;	
+	 color: #ddd;
+	 padding-top: 10px;
+	 font-family: 'Roboto Condensed', sans-serif;
+	 font-size: 15px;
+}
+#vhodbut {
+	width: 100%;
+	height: 40px;
+	background: linear-gradient(100.91deg, #8D1D5E 0%, #E11052 52.6%, #EA562F 100%);
+	border: 0px solid #fff;
+	border-radius: 9px;
+	color: #ddd;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+#space2 {
+	height: 40%;
+	width: 100%;
+}
+#change_password {
+	height: 20%;
+	width: 100%;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #696D86;
+	font-family: 'Roboto Condensed';
+}
+.change_password {
+	color: #696D86;
+	font-family: 'Roboto Condensed';
+}
+
+.pencil {
+     background: url('../../images/pencil.png') no-repeat scroll 20px 20px;
+     background-position: right;
+}
+#space1_2 {
+	height: 5%;
+}

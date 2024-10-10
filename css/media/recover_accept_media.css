@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+@media screen and (max-device-width: 480px) {
+	html {
+		background: linear-gradient(180deg, #21254A 40.29%, #313077 100%);
+	}
+	#wrapper {
+		height: 100%;
+		width: 100%;
+	}
+	#iphone11 {
+		background: none;
+		height: 100%;
+		width: 100%;
+	}
+	#content {
+		height: 100%;
+		width: 100%;
+		margin-top: 0;
+	}
+	#forms {
+		width: 80%;
+		margin: 0 auto;
+		height: 17%;
+	}
+	#button {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 20px;
+}	
+	#font {
+		line-height: 45px;
+	}
+	input[type="text"] {
+	height: 40px;
+	font-size: 20px;
+}
+	.header_amba {
+	font-size: 20px;
+}
+	#space1 {
+		height: 30%; width: 100%;
+	}
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #696D86;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	height: 100%;
+	width: 25%;
+	margin: 0 auto;
+}
+#iphone11 {
+	height: 39em;
+	width: 20em;
+	background: url(../../images/back3.png) no-repeat;
+	-moz-background-size: 100%; 
+	-webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+#content {
+	height: 80%;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+#header {
+	height: 15%;
+	width: 100%;
+}
+#logo {
+	height: 100%;
+	width: 60%;
+	margin: 0 auto;
+}
+#daily {
+		height: 100%;
+		width: 100%;
+		line-height: 500px;
+		text-align: center;
+	}
+	.serega_hui {
+		vertical-align: middle;
+	}
+	.exit {
+	}
+	#sapce {
+		width: 100%;
+		height: 30%;
+	}

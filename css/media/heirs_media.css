@@ -1,0 +1,69 @@
+@media screen and (max-device-width: 480px) {
+	html {
+	background: linear-gradient(180deg, #21254A -33.06%, #323078 103.65%););
+	}
+	#wrapper {
+		height: 100%;
+		width: 100%;
+	}
+	#iphone11 {
+		background: none;
+		height: 100%;
+		width: 100%;
+	}
+	#content {
+		height: 100%;
+		width: 100%;
+		margin-top: 0;
+	}
+	#space2 {
+		height: 2%;
+	}
+	#panels {
+		height: 45%;
+	}
+	#wait_download {
+	width: 100%;
+	height: 47%;
+}
+	#delete_post {
+	width: 100%;
+	height: 47%;
+}
+	#download, #delete, #post, #wait {
+		width: 48%;
+		line-height: 110px;
+	}
+	#content_tasks {
+		height: 110%;
+	}
+	#header {
+		padding-top: 30px;
+	}
+	.date {
+		margin-left: 50px;
+	}
+	#task_1 {
+		height: 12%;
+		border: 0;
+	}
+	#icons {
+		height: 15%;
+	}
+	#section_1 {
+		height: 85%;
+	}
+	#purhase_id {
+		width: 40%;
+	}
+	#club_name {
+		width: 30%;
+	}
+	#price {
+		width: 20%;
+	}
+	#purhase_1 {
+		height: 9%;
+		margin-top: 15px;
+	}
+}

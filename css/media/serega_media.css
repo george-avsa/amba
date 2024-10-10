@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+@media screen and (max-device-width: 480px) {
+	html {	
+	background: #fff;
+	}
+	#wrapper {
+		height: 100%;
+		width: 100%;
+	}
+	#iphone11 {
+		background: none;
+		height: 100%;
+		width: 100%;
+	}
+	#content {
+		height: 100%;
+		width: 100%;
+		margin-top: 0;	
+}
+	#daily {
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	#daily {
+		height: 100%;
+		width: 100%;
+		line-height: 600px;
+		text-align: center;
+	}
+}

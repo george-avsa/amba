@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #696D86;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}	
+#wrapper {
+	height: 100%;
+	width: 25%;
+	margin: 0 auto;
+}
+#iphone11 {
+	height: 39em;
+	width: 20em;
+	background: url(../../images/back1.png) no-repeat;
+	-moz-background-size: 100%; 
+	-webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+#content {
+	height: 80%;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+#header {
+	height: 15%;
+	width: 100%;
+}
+#logo {
+	height: 100%;
+	width: 60%;
+	margin: 0 auto;
+}
+.logo {
+	width: 100%;
+	padding-top: 15px;
+}
+#forms {
+	height: 65%;
+	width: 100%;
+	text-align: center;
+}
+#space1 {
+	height: 25%;
+}
+#space2 {
+	height: 35%;
+	width: 100%;
+}
+input[type="text"] {
+	height: 35px;
+	width: 100%;
+	 border: 0px;
+	 border-bottom: 1px solid #696D86;
+	 background-color: transparent;	
+	 color: #ddd;
+	 padding-top: 10px;
+	 font-family: 'Roboto Condensed', sans-serif;
+	 font-size: 15px;
+}
+input[type="password"] {
+	height: 35px;
+	width: 100%;
+	 border: 0px;
+	 border-bottom: 1px solid #696D86;
+	 background-color: transparent;	
+	 color: #ddd;
+	 padding-top: 10px;
+	 font-family: 'Roboto Condensed', sans-serif;
+	 font-size: 15px;
+}
+input.pass::placeholder {
+	color: #696D86;
+}
+#missedpswrd {
+	width: 100%;
+	text-align: center;
+	height: 4%;
+}
+#missedpswrd > a{
+	color: #696D86;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 3px;	
+}
+#vhodbut {
+	width: 100%;
+	height: 15%;	
+	background: linear-gradient(100.91deg, #8D1D5E 0%, #E11052 52.6%, #EA562F 100%);
+	border: 0px solid #ddd;
+	border-radius: 9px;
+	color: #ddd;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+}
+#registration {
+	margin-top: 12px;
+}
+#registration > a {
+	color: #696D86;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+}
+.popup_wrapper {
+	height: 250px;
+	width: 230px;
+	z-index: 100;
+	position: fixed;
+	padding-top: 190px;
+}
+#popup {
+	width: 100%;
+	height: 30%;
+	z-index: 100;
+	background: #ddd;
+	border-radius: 9px;
+	text-align: center;
+	line-height: 65px;
+
+}
+#wrong_email {
+	width: 100%;
+	height: 50%;
+}
+.wrong_email {
+	margin-top: 10px;
+}
+.link_exit {
+	width: 20%;
+	margin: 0 auto;	
+	vertical-align: middle;
+}
+.exit_popup_email {
+	width: 100%;
+	height: 50%;
+}

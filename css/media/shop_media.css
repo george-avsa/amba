@@ -1,0 +1,32 @@
+@media screen and (max-device-width: 480px) {
+	#wrapper {
+		height: 100%;
+		width: 100%;
+	}
+	#iphone11 {
+		background: none;
+		height: 100%;
+		width: 100%;
+	}
+	#content {
+		height: 100%;
+		width: 100%;
+		margin-top: 0;
+		background: #fff;
+	}
+	#header_space {
+	height: 2%;
+}
+	#space1 {
+		height: 0;
+	}
+	#shop {
+		margin-left: 2.5%;
+	}
+	.club_name {
+		font-size: 12px;
+	}
+	.club_article {
+		font-size: 9px;
+	}
+}

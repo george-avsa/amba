@@ -1,0 +1,75 @@
+	@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+@media screen and (max-device-width: 480px) {
+	html {	
+	background: linear-gradient(180deg, #21254A 40.29%, #313077 100%);
+	}
+	#wrapper {
+		height: 100%;
+		width: 100%;
+	}
+	#iphone11 {
+		background: none;
+		height: 100%;
+		width: 100%;
+	}
+	#content {
+		height: 100%;
+		width: 100%;
+		margin-top: 0;
+	}
+	#logo {
+		text-align: center;
+	}
+	.logo {
+		padding-top: 20px;
+		width: 70%;
+		margin: 0 auto;
+	}
+	#space1 {
+		height: 25%;
+		width: 100%;
+	}
+	#forms {
+		height: 55%;
+		width: 100%;
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+	input[type="text"], input[type="password"] {
+		height: 10%;
+		font-size: 12pt;
+		width: 80%;
+	}
+	#missedpswrd > a {
+		font-size: 12pt;
+	}
+	#registration > a {
+		font-size: 12pt;
+	}
+	#vhodbut {
+		height: 13%;
+		width: 80%;	
+		margin: 0 auto;
+	}
+	#space2 {
+		height: 40%;
+	}
+	.popup_wrapper {
+		height: 100%;
+		width: 100%;
+		background: rgba(33, 37, 74, 0.84);
+		position: relative;
+		padding-top: 0;
+	}
+	#popup {
+	    opacity: 1;
+	    width: 90%;
+	    height: 20%;
+	    margin: 0 auto;
+	}
+	table, tr, td {
+		height: 100%;
+		width: 100%;
+	}
+}

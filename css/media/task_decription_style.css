@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	height: 100%;
+	width: 25%;
+	margin: 0 auto;
+}
+#iphone11 {
+	height: 39em;
+	width: 20em;
+	background: url(../../images/back3.png) no-repeat;
+	-moz-background-size: 100%; 
+	-webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+#content {
+	height: 90%;
+	width: 79.8%;
+	padding-right: 1.5px;
+	margin: 0 auto;
+	margin-top: 45px;
+	background-size: 100%;
+}
+#daily {
+	width: 100%;
+	height: 82%;
+}
+#header {
+	height: 10%;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 10px;
+}	
+.svg_logo {
+	float: left;
+}
+.svg_logo1 {
+	float: right;
+}
+#font {
+	height: 100%;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 20px;
+}
+.header_amba {
+	vertical-align: middle;	
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: linear-gradient(180deg, #313076 40.29%, #232751 100%);	
+}
+#space1 {
+	width: 100%;
+	height: 2.5%;
+}
+#club_picture {
+	height: 40%;
+	width: 90%;
+	margin: 0 auto;
+	background: url(../../images/club_pict.png) no-repeat;
+	background-size: 100%;
+	border-radius: 9px;
+}
+#space2 {
+	width: 100%;
+	height: 2%;
+}
+#info_task {
+	height: 3%;
+	width: 90%;
+	margin: 0 auto;
+}
+#name_club {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+#price {
+	width: 50%;
+	height: 50%;
+	float: right;
+}
+.name_club {
+	float: left;
+	font-family: Roboto Condensed;
+	font-weight: bold;
+	color: #21254A;
+}
+.price {
+	float: right;
+	font-family: Roboto Condensed;
+	font-weight: bold;
+	color: #21254A;
+}
+#description_task {
+	height: 10%;
+	width: 90%;
+	margin: 0 auto;
+}
+#description_task font {
+	color: #21254A;
+	font-family: Roboto Condensed;
+	font-size: 14px;	
+}
+#panels {
+	height: 37%;
+	width: 90%;
+	margin: 0 auto;
+}
+#wait_download {
+	width: 100%;
+	height: 45%;
+}
+#delete_post {
+	width: 100%;
+	height: 45%;
+}
+#wait {
+	float: left;
+	height: 100%;
+	width: 45%;
+	background: linear-gradient(146.18deg, #F39121 -33.06%, rgba(243, 145, 33, 0.7) 103.65%);
+	border-radius: 9px;
+	text-align: center;
+}
+.svg_wait {
+	vertical-align: middle;
+}
+#download {
+	float: right;
+	height: 100%;
+	width: 45%;
+	background: linear-gradient(146.18deg, #21254A -33.06%, #323078 103.65%);
+	border-radius: 9px;
+	text-align: center;
+}
+.svg_download {
+	vertical-align: middle;
+}
+#delete {
+	float: left;
+	height: 100%;
+	width: 45%;
+	background: linear-gradient(146.18deg, #8D1D5E -33.06%, rgba(141, 29, 94, 0.7) 103.65%);
+	border-radius: 9px;
+	text-align: center;
+}
+.svg_delete {
+	vertical-align: middle;
+}
+#post {
+	float:right;
+	height: 100%;
+	width: 45%;
+	background: linear-gradient(146.18deg, #1FA4AF -33.06%, rgba(31, 164, 175, 0.7) 103.65%);
+	border-radius: 9px;
+	text-align: center;
+}
+.svg_post {
+	vertical-align: middle;
+}
+table, tr, td {
+	height: 100%;
+	width: 100%;
+}
+td {
+	vertical-align: middle;
+}
+.download_middle {
+	vertical-align: bottom;
+	text-align: center;
+	height: 10%;
+}
+.download_middle1 {
+	vertical-align: top;
+	text-align: center;
+	height: 10%;
+}
+.text_download {
+	text-align: center;
+	font-family: Roboto Condensed;
+	color: #FFFFFF;
+	font-size: 10px;
+}
+.svg_wait, .svg_download, .svg_delete, .svg_post {
+	width: 40%;
+}
